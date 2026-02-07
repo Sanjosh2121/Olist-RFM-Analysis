@@ -1,6 +1,7 @@
 # Olist E-commerce: Customer Lifetime Value (CLV) & RFM Analysis
 
 ## 📌 Project Overview
+![Dashboard Preview](dashboard_preview.png)
 This project analyzes **93,357 unique customers** from the Olist E-commerce dataset to identify high-value segments and churn risks. Using a combination of **Python (Pandas/SQLAlchemy)** for data engineering and **Tableau** for interactive visualization, I developed a robust segmentation engine to drive marketing strategy.
 
 ## 🛠️ Technical Challenges & Skepticism
