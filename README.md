@@ -24,3 +24,9 @@ View the full interactive analysis here: **[Live Tableau Dashboard](https://publ
 * **Dataset Output:** `rfm_final_results.csv`
 * **Libraries:** Pandas, SQLAlchemy, urllib.parse
 * **Visualization:** Tableau Desktop Public Edition
+
+## 🛠️ How to Reproduce
+1. **Clone the repo:** `git clone https://github.com/Sanjosh2121/Olist-RFM-Analysis.git`
+2. **Install dependencies:** `pip install -r requirements.txt`
+3. **Configure Database:** Update the `engine` connection string in `clv_model_engine.py` with your local MySQL credentials.
+4. **Run Analysis:** Execute `python clv_model_engine.py` to generate the `rfm_final_results.csv`.
