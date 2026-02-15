@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 import urllib.parse
 
 # 1. ENCODE PASSWORD & CONNECT
-raw_password = "hello@1234#"
+raw_password = "YOUR_DATABASE_PASSWORD"
 encoded_password = urllib.parse.quote_plus(raw_password)
 engine = create_engine(f'mysql+mysqlconnector://root:{encoded_password}@localhost/ecommerce_clv')
 
